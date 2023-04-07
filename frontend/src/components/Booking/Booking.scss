@@ -1,0 +1,60 @@
+.booking {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(229, 231, 235);
+  position: sticky;
+  top: 80px;
+}
+
+.booking__top {
+  padding: 2rem;
+  border-bottom: 1px solid rgb(229, 231, 235);
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+
+    span {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: var(--text-color);
+    }
+  }
+
+  span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+
+    i {
+      color: var(--secondary-color);
+    }
+  }
+}
+
+.booking__form {
+  padding-top: 2rem;
+
+  h5 {
+    margin-bottom: 1rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--heading-color);
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(229, 231, 235);
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.booking__info-form {
+  padding: 1rem;
+  border: 1px solid rgb(229, 231, 235);
+}

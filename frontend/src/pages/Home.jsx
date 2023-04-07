@@ -1,20 +1,20 @@
 import React from "react";
+import { Col, Container, Row } from "reactstrap";
 import "../styles/home.scss";
 
-import { Col, Container, Row } from "reactstrap";
+import experienceImg from "../assets/images/experience.png";
 import heroImg from "../assets/images/hero-img01.jpg";
 import heroImg02 from "../assets/images/hero-img02.jpg";
 import heroVideo from "../assets/images/hero-video.mp4";
 import worldImg from "../assets/images/world.png";
-import experienceImg from "../assets/images/experience.png";
-
 import FeaturedTourList from "../components/FeaturedTour/FeaturedTourList";
+import MasonryImageGallery from "../components/ImageGallery/MasonryImageGallery";
+
+import Testimonial from "../components/Testimonial/Testimonial";
 import ServiceList from "../services/ServiceList";
+import NewsLetter from "../shared/NewsLetter";
 import SearchBar from "../shared/SearchBar";
 import Subtitle from "../shared/Subtitle";
-import MasonryImageGallery from "../components/ImageGallery/MasonryImageGallery";
-import Testimonial from "../components/Testimonial/Testimonial";
-import NewsLetter from "../shared/NewsLetter";
 
 const Home = () => {
   return (
