@@ -6,7 +6,8 @@ const routes = {
   tourDetail: "/tours/:id",
   searchResult: "/tours/search",
   about: "/about",
-  gallery: "gallery",
+  gallery: "/gallery",
+  thankyou: "/thankyou",
 };
 
 export default routes;

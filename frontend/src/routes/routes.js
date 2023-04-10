@@ -14,6 +14,7 @@ const Router = () => {
         <Route path={config.routes.tourDetail} element={<pages.DetailTour />} />
         <Route path={config.routes.tours} element={<pages.Tours />} />
         <Route path={config.routes.about} element={<pages.About />} />
+        <Route path={config.routes.thankyou} element={<pages.ThankYou />} />
       </Routes>
     </>
   );
